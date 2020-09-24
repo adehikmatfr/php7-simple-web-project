@@ -1,0 +1,64 @@
+body {
+	font-size: 15px;
+    color: #343d44;
+	font-family: "segoe-ui", "open-sans", tahoma, arial;
+	padding: 0;
+	margin: 0;
+}
+.main-wrapper a {
+	text-decoration: none;
+	color: #3586b7;
+}
+.main-wrapper a.text-link:hover {
+	border-bottom: 1px dashed #CCCCCC;
+}
+.tutorial-link-wrapper {
+	text-align: center;
+}
+header {
+	padding: 10px 30px 7px 30px;
+    border-bottom: 2px solid #636b71;
+    background: #343d44;
+}
+footer {   
+	background: #343d44;
+	padding: 10px 0 7px 30px;
+	color: #b9bfc3;
+	font-size: 13px;
+}
+footer a {
+	color: #b9bfc3;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.link-header {
+	margin-top: 5px;
+}
+.link-header a {
+    font-size: 15px;
+    color: #b9bfc3;
+    text-decoration: none;
+    margin: 0;
+}
+.link-header a.home:hover {
+    color: #b9bfc3;
+}
+.main-wrapper {
+	padding: 25px 0;
+}
+.link-header {
+	float: right;
+}
+.clearfix {
+	clear: both;
+}
+@media screen and (max-width: 450px) {
+	header,
+	footer {
+		text-align: center;
+	}
+	.link-header {
+		float: none;
+		margin: 0;
+	}
+}

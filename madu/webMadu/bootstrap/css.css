@@ -1,0 +1,21 @@
+/* nafbar */
+.abu{
+    text-decoration: none;
+    font-size: 25px;
+    max-height: 70px;
+    margin-top:-15px;
+    border-bottom:1px solid silver;
+}
+/* ahir */
+/* conten login */
+.conten{
+    margin-top:125px;
+}
+/* akhir konten loogin */
+.content{
+    margin-top:70px;
+}
+/* pesan kelasalahan */
+.info{
+color:red;
+}

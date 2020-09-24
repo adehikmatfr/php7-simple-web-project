@@ -1,0 +1,341 @@
+/*css home*/
+/*All version*/
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+.bar{
+	display:fixed;
+}
+
+.jumbotron .container{
+	position: relative;
+	z-index: 1;
+}
+.tombol{
+	text-transform: uppercase;
+	border-radius: 25%;
+}
+.dia{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+/*jumbo tron*/
+
+.jumbotron{
+	background-image: url(img/wlp.jpg);
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	position: relative;
+}
+.jumbotron .bgd{
+	background-image: url(img/wlp.jpg);
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	position: relative;
+}
+
+.jumbotron .display-4{
+	display: inline-block;
+	color: white;
+	margin-top: 80px;
+	font-weight: 400px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-size: 30px;
+	margin-bottom: 30px;
+	font-family: viga;
+}
+
+.font{
+ font-family: Viga;
+ font-size:15px;
+}
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 30px;
+	font-weight: 200;
+   
+}
+
+.jumbotron::after{
+	content: '';
+	display:block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+	position: absolute;
+	bottom:0;
+}
+
+/*panel*/
+.panel{
+	box-shadow:0 3px 30px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	background-color: white;
+	padding:30px;
+}
+.img{
+ width :90px;
+ height:90px;
+ margin-right:20px;
+ margin-bottom: 10px;
+}
+.panel h4{
+	font-size:16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.panel p{
+	font-size: 14px;
+	color:#acacac;
+	margin-top:-5;
+	font-weight: 200;
+}
+
+.space{
+ margin-top: 120px;	
+}
+.tx h1{
+	font-size: 26px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+.tx h1 span{
+	font-weight: 500;
+}
+
+
+/*loggo*/
+.log{
+	width:200px;
+	height:170px;
+	margin-left: 30px;
+}
+.quot{
+	display: inline-block;
+	margin-left:30px;
+	margin-top: 30px;
+}
+.cop{
+	margin-left:80px;
+}
+
+
+/*akhir css home*/
+/*css login*/
+
+.panel-login{
+	box-shadow:0 3px 30px rgba(0,0,0,0.7);
+	border-radius: 12px;
+	margin-top: 60px;
+	background-color: rgba(0,0,0,0);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	height:300px;
+}
+.panel-login:hover{
+background-color: rgba(0,0,0,0.5);
+}
+.form-group label{
+	color:white;
+}
+.bt{
+	display: inline-block;
+text-decoration: none;
+margin-right: 3px;
+}
+.custom-checkbox label{
+color:white;
+}
+.copp{
+	margin-left: 100px;
+}
+/*akhir css login*/
+/*css regis*/
+.card{
+	position: relative;
+	z-index: 1;
+	margin-top: -500px;
+}
+.cek{
+	margin-top: 5px;
+}
+/*akhircss regis*/
+/*css tambah pegawai*/
+/*.card .text-center{
+	margin-left:-20px;
+}*/
+
+input .y{
+	margin-top: 200px;
+}
+/*akhir tambah pegawai*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+}
+
+
+/*desktop version*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+ /*css home*/
+
+ .font{
+ font-family: Viga;
+ font-size:35px;
+}
+.dia{
+	display: inline-block;
+	margin-top: 150px;
+	margin-left: -300px;
+}
+	.nav-link{
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.jumbotron{
+	margin-top: -75px;
+	height: 640px;
+}
+
+.jumbotron .display-4{
+	font-size: 40px;
+	margin-top: 150px;
+	margin-left: -200px;
+
+}
+
+.navbar-brand,.nav-link{
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/*.poin::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid blue;
+	width: 50%;
+	margin:auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+	z-index: 5;
+}*/
+
+.active{
+ color:blue !important;
+}
+
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid blue;
+	width: 50%;
+	margin:auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.carousel-item img{
+	height:300px;
+}
+
+.tx{
+	margin-top: 50px;
+}
+.tx h1{
+	font-size: 46px;
+	padding-bottom: 20px;
+}
+.tx p{
+	font-size: 25px;
+	color:#acacac;
+}
+.log{
+	width:250px;
+	height:270px;
+	margin-top:100px;
+	margin-left:330px;
+
+}
+.quot{
+	text-align: center;
+	display: inline-block;
+	margin-left:80px;
+	margin-top: 40px;
+	font-size: 30px;
+}
+.cop{
+	font-size: 20px;
+	margin-left:390px;
+	color:#acacac;
+}
+/*akhir css home*/
+/*css login*/
+.panel-login{
+	margin-top: 130px;
+}
+.form-group input{
+	
+}
+.form-group{
+  margin-top:40px;
+  margin-left:40px;
+}
+.col-12 small{
+	box-sizing: border-box;
+ display: inline-block;
+ margin-top:-5px;
+}
+.bt{
+	display: inline-block;
+text-decoration: none;
+margin-right: 10px;
+margin-left: 100px;
+}
+.copp{
+	font-size: 20px;
+	margin-top: -200px;
+	margin-left:450px;
+	color:#acacac;
+	display: inline-block;
+}
+.n{
+	display: inline-block;
+	margin-left: 50px;
+}
+/*akhir css login*/
+/*awal css regis*/
+.cek{
+	margin-top: -65px;
+	margin-left: 230px;
+}
+.card-header span {
+	display: inline-block;
+	font-size: 20px;
+}
+/*akhir css regis*/
+
+/*kepegawaian*/
+.nam{
+	margin-left: 100px;
+}
+.card .text-center{
+	margin-top:50px;
+	margin-left:-20pc;
+}
+/*akhir kepegawaian*/
+
+
+@media print{
+	/*.logout, .tambah, .form-cari{*/
+		display: none;
+	/*}*/
+}
+}
+

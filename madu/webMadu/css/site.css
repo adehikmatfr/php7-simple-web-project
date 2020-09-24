@@ -1,0 +1,40 @@
+h2 {
+	font-size: 120%;
+    margin: 0;
+	color: #6b6b6b;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight: normal;
+    font-size: 15px;
+    margin: 15px 0 20px 0;
+	color: #6b6b6b;
+}
+.top-header {
+    background: #5C5D5C;
+    color: #F5F5F5;
+    font-size: 13px;
+    padding: 5px 10%;
+}
+
+.top-header-container {
+    margin: auto;
+}
+.clear {
+    clear: both;
+}
+.top-header-left {
+    float: left;
+}
+.top-header-right {
+    float: right;
+}
+
+.top-header a {
+	text-decoration: none;
+    color: #CCCCCC;
+	transition: color 0.3s;
+}
+.top-header a:hover {
+	color: #FF9F5B;
+}
